@@ -1,12 +1,43 @@
 .container {
-width: 800px;
-height: 600px;
-background-color: #f0f0f0;
+    width: 800px;
+    height: 600px;
+    background-color: #f0f0f0;
 }
 
 .block {
     display: inline-block;
     width: 49%;
     height: 49%;
-    background-color: cornflowerblue;
+}
+
+.rojo {
+    background-color: #880000;
+}
+
+.rojo.activo {
+    background-color: #ff0000;
+}
+
+.azul {
+    background-color: #000088;
+}
+
+.azul.activo {
+    background-color: #0000ff;
+}
+
+.verde {
+    background-color: #008800;
+}
+
+.verde.activo {
+    background-color: #00ff00;
+}
+
+.amarillo {
+    background-color: #888800;
+}
+
+.amarillo.activo {
+    background-color: #ffff00;
 }
