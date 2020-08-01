@@ -1,0 +1,12 @@
+.container {
+width: 800px;
+height: 600px;
+background-color: #f0f0f0;
+}
+
+.block {
+    display: inline-block;
+    width: 49%;
+    height: 49%;
+    background-color: cornflowerblue;
+}
